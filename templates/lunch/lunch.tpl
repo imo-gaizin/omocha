@@ -8,7 +8,7 @@
   {{ parent() }}
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFKcXCk6AcAWZvbypfdxH-0KKHHz_eKko"></script>
   <script src="apps/js/lunch.js"></script>
-  <script type="text/javascript" src="apps/js/gmap3/jquery.gmap3.js"></script>
+  <script type="text/javascript" src="apps/js/gmap3/gmap3.min.js"></script>
 {% endblock %}
 
 {% block main %}

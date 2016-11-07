@@ -24,7 +24,7 @@
 {% endblock %}
 
 {% block js %}
-  <script src="bootstrap/js/jquery-1.9.1.min.js"></script>
+  <script src="bootstrap/js/jquery-3.1.0.min.js"></script>
   <script src="bootstrap/js/jquery-migrate-1.0.0.min.js"></script>
   <script src="bootstrap/js/jquery-ui-1.10.0.custom.min.js"></script>
   <script src="bootstrap/js/jquery.ui.touch-punch.js"></script>
