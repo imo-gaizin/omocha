@@ -52,6 +52,23 @@ $(function() {
             }).open(marker.getMap(), marker);
         });
     });
+
+    var menu = new Gmap3Menu($("#map-canvas"));
+    menu.add("omise tuika", "itemB",
+        function(){
+            menu.close();
+        }
+    );
+    var current;
+
+    gmap.on({
+        rightclick:function(map, event){
+            current = event;
+            menu.open(current);
+        }
+    });
+
+
 });
 
 
