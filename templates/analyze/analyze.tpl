@@ -119,7 +119,7 @@
     <div id='sortable' class="card-deck">
   {% endif %}
       {#114.179.102.50 class="col-xs-2" style='width:120px; height:170px; background:url(img/back.jpg) no-repeat; background-size: contain;' #}
-      <div class="span1" style=''>
+      <div class="span1 box">
         <div class="card">
           <div class="card-block">
             <h4 class="card-title">{{ card.getName }}</h4>

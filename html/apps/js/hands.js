@@ -51,7 +51,7 @@ function drowApiRequest() {
 
 function addHands(card) {
     $('#sortable').append(
-        $('<div>').attr('class', 'span1').attr('style', '').append(
+        $('<div>').attr('class', 'span1 box').attr('style', '').append(
             $('<div>').attr('class', 'card').append(
                 $('<div>').attr('class', 'card-block').append(
                     $('<h4>').attr('class', 'card-title').append(card.name),
